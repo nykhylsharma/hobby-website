@@ -1,0 +1,361 @@
+@font-face {
+  font-family: 'SF UI Text Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Regular'), url('./fonts/SFUIText-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Italic'), url('./fonts/SFUIText-RegularItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Light'), url('./fonts/SFUIText-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Light Italic'), url('./fonts/SFUIText-LightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Medium'), url('./fonts/SFUIText-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Medium Italic'), url('./fonts/SFUIText-MediumItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Semibold'), url('./fonts/SFUIText-Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Semibold Italic'), url('./fonts/SFUIText-SemiboldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Bold'), url('./fonts/SFUIText-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Bold Italic'), url('./fonts/SFUIText-BoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Heavy'), url('./fonts/SFUIText-Heavy.woff') format('woff');
+}
+@font-face {
+  font-family: 'SF UI Text Heavy Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF UI Text Heavy Italic'), url('./fonts/SFUIText-HeavyItalic.woff') format('woff');
+}
+
+body{
+    margin: 0;
+    top: 0;
+}
+
+nav {
+    background-color: white;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    height: 88px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav li{
+  list-style-type: none;
+}
+
+#getranks{
+    width: 108px;
+    height: 34px;
+    font-family: Futura;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #ec4c6f;
+}
+#institute {
+    width: 75px;
+    height: 34px;
+    font-family: Baskerville;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #3e3e5f;
+  }
+  .left-nav{
+      width: 30%;
+      display: flex;
+      justify-content: flex-start;
+  }
+  .middle-nav {
+    width: 73px;
+    height: 22px;
+    font-family: "SF UI Text Regular";
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #3e3e5f;
+    display: flex;
+    width: 50%;
+    padding: 0;
+  }
+  .middle-nav li{
+    margin: 10px 20px;
+  }
+  .right-nav{
+      width: 20%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+  #Rectangle-3 {
+    border: solid 1px #ec4c6f;
+    padding: 10px 16px;
+    font-family: "SF UI Text Regular";
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ec4c6f;
+  }
+
+main{
+    position: relative;
+}
+.main-banner{
+  height: 500px;
+  width: 100%;
+  background-color: #2ebf91;
+  display: flex;
+}
+.main-banner button{
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+}
+.main-banner section{
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.Group-291{
+  width: 66%;
+}
+
+.main-banner .analyze {
+  width: 172px;
+  height: 56px;
+  font-family: "SF UI Text Medium";
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.main-banner p{
+  margin-bottom: 36px;
+  font-family: "SF UI Text Regular";
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.main-banner .main-button{
+  width: 150px;
+  height: 56px;
+  font-family: "SF UI Text Regular";
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #2ebf91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features{
+  position: relative;
+  margin: 80px 40px;
+  width: 100%;
+  font-family: "SF UI Text Regular";
+  font-size: 34px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #3e3e5f;
+}
+
+.feature-div{
+  width: 100%;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+.svgs{
+  width: 60%;
+}
+#behaviour-svg{
+  width: 50%;
+  margin-right: 10%;
+}
+#Group-274{
+  width: 50%;
+  margin-left: 10%;
+}
+.small-svgs{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+.feature-section{
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.sub-heading-small{
+  width: 83px;
+  height: 22px;
+  font-family: "SF UI Text Regular";
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #ffb400;
+  margin-bottom: 16px;
+}
+.sub-heading-big{
+  width: 282px;
+  height: 82px;
+  font-family: "SF UI Text Regular";
+  font-size: 34px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #3e3e5f;
+  margin-bottom: 16px;
+}
+.feature-paragraph{
+  opacity: 0.7;
+  font-family: "SF UI Text Regular";
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #3e3e5f;
+  margin-bottom: 36px;
+}
+.feature-button{
+  font-family: "SF UI Text Regular";
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+  border-radius: 4px;
+  background-color: #2ebf91;
+  padding: 16px;
+}
+.sub-heading-med{
+  font-family: "SF UI Text Regular";
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #3e3e5f;
+  margin-bottom: 24px;
+}
+.request-demo{
+  height: 350px;
+  background-color: #4cecc9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.request-demo-text{
+  font-family: "SF UI Text Regular";
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.request-demo-button{
+  border-radius: 155px;
+  background-color: #ffffff;
+  font-family: "SF UI Text Regular";
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4cecc9;
+  padding: 20px 48px;
+}
+#chev-down{
+  margin: 0 10px;
+}
